@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D760CB928B5A8EB00ED6A32 /* LocalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D760CB828B5A8EB00ED6A32 /* LocalState.swift */; };
 		9DD1191928AA44C40030E966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1191828AA44C40030E966 /* AppDelegate.swift */; };
 		9DD1191D28AA44C40030E966 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1191C28AA44C40030E966 /* LoginViewController.swift */; };
 		9DD1192228AA44C70030E966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD1192128AA44C70030E966 /* Assets.xcassets */; };
@@ -14,9 +15,11 @@
 		9DD1193028AA48510030E966 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1192F28AA48510030E966 /* LoginView.swift */; };
 		9DD1193328AC60E90030E966 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1193228AC60E90030E966 /* OnboardingContainerViewController.swift */; };
 		9DD1193528AC69880030E966 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1193428AC69880030E966 /* OnboardingViewController.swift */; };
+		9DD1193728B35EF50030E966 /* DummyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD1193628B35EF40030E966 /* DummyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D760CB828B5A8EB00ED6A32 /* LocalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalState.swift; sourceTree = "<group>"; };
 		9DD1191528AA44C40030E966 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD1191828AA44C40030E966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD1191C28AA44C40030E966 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		9DD1192F28AA48510030E966 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		9DD1193228AC60E90030E966 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 		9DD1193428AC69880030E966 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		9DD1193628B35EF40030E966 /* DummyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D760CB728B5A8D200ED6A32 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9D760CB828B5A8EB00ED6A32 /* LocalState.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		9DD1190C28AA44C40030E966 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		9DD1191728AA44C40030E966 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				9D760CB728B5A8D200ED6A32 /* Utils */,
 				9DD1193128AC605E0030E966 /* Onboarding */,
 				9DD1192E28AA482A0030E966 /* Login */,
 				9DD1191828AA44C40030E966 /* AppDelegate.swift */,
@@ -81,6 +94,7 @@
 			children = (
 				9DD1191C28AA44C40030E966 /* LoginViewController.swift */,
 				9DD1192F28AA48510030E966 /* LoginView.swift */,
+				9DD1193628B35EF40030E966 /* DummyViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -165,6 +179,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DD1193028AA48510030E966 /* LoginView.swift in Sources */,
+				9D760CB928B5A8EB00ED6A32 /* LocalState.swift in Sources */,
+				9DD1193728B35EF50030E966 /* DummyViewController.swift in Sources */,
 				9DD1191D28AA44C40030E966 /* LoginViewController.swift in Sources */,
 				9DD1193528AC69880030E966 /* OnboardingViewController.swift in Sources */,
 				9DD1191928AA44C40030E966 /* AppDelegate.swift in Sources */,
